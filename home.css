@@ -8,6 +8,9 @@
 
 body{
   background-color: rgb(255, 250, 230);
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
 }
 
 :home-color{
@@ -155,7 +158,7 @@ hr{
 }
 
 .box-content{
-  display: inline-flex;
+  display: inline-flex ;
   
  
 }
@@ -192,12 +195,17 @@ hr{
 
 
 /* footer section */
-  footer {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
-  }
+footer {
+ 
+  width: 100%;
+  box-sizing: border-box;
+  padding: 20px;
+  text-align: center;
+  background-color: rgba(5,5,5, 0.5);
+  color: #fff;
+  margin: 0 auto; /* Centers the footer */
+  padding: 20px;
+}
 
   footer ul {
     list-style: none;
@@ -335,4 +343,23 @@ hr{
       
       justify-self: center;
     }
+
+    /* end of content section */
+
+    /* footer section */
+
+    footer {
+      flex-direction: column; /* Stacks items vertically */
+      padding: 15px;
+  }
+
+  footer ul {
+      flex-direction: column;
+      align-items: center;
+      padding: 0;
+  }
+
+  footer ul li {
+      margin: 5px 0; /* Adjust spacing between items */
+  }
   }
