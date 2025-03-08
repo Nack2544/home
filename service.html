@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Davilla Builder</title>
+    <link rel="stylesheet" href="service.css">
+    <!-- font style -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+</head>
+<style>
+ 
+</style>
+<body>
+  <!-- navigation section -->
+  <nav>
+    <label for="logo">
+      <a href="home.html"><img src="./images/Davila-Builder.jpeg" alt="logo" id="logo"></a>
+    </label>
+    <ul id="nav-list">
+      <li><a href="./home.html">HOME</a></li>
+      <li><a href="index.html">SERVICE</a></li>
+      <li><a href="#">ABOUT US</a></li>
+      <li><a href="#">CONTACT</a></li>  
+    </ul>
+    <div class="nav-list-bars" onclick="toggleNav(this)">
+      <div class="bar1"></div>
+      <div class="bar2"></div>
+      <div class="bar3"></div>
+    </div>
+</nav>
+
+
+
+
+  <!-- intro profile -->
+  <div class="hero">
+  
+  <div class="intro">
+    <h1>Welcome</h1>
+    <a href="Oak.html">Learn More</a>
+  </div>
+  
+  <div class="arrow-down" id="scroll-down">
+    <span></span>
+
+  </div>
+</div>
+
+<!-- content section -->
+<h1 class="header" id="target-section" >Services</h1>
+<hr>
+<div class="gallery">
+  <div class="service-box">
+      <img src="./images/spacejoy-PyeXkOVmG1Y-unsplash 1.png" alt="Service 1">
+      <h3>Web Design</h3>
+      <p>We create stunning websites tailored to your needs.</p>
+  </div>
+
+  <div class="service-box">
+      <img src="./images/spacejoy-PyeXkOVmG1Y-unsplash 1.png" alt="Service 2">
+      <h3>SEO Optimization</h3>
+      <p>Boost your rankings with our expert SEO strategies.</p>
+  </div>
+
+  <div class="service-box">
+      <img src="./images/spacejoy-PyeXkOVmG1Y-unsplash 1.png" alt="Service 3">
+      <h3>Digital Marketing</h3>
+      <p>Expand your reach with targeted digital marketing.</p>
+  </div>
+
+  <div class="service-box">
+      <img src="./images/spacejoy-PyeXkOVmG1Y-unsplash 1.png" alt="Service 4">
+      <h3>Graphic Design</h3>
+      <p>Make your brand stand out with stunning designs.</p>
+  </div>
+
+  <div class="service-box">
+      <img src="./images/spacejoy-PyeXkOVmG1Y-unsplash 1.png" alt="Service 5">
+      <h3>App Development</h3>
+      <p>We build high-performance mobile applications.</p>
+  </div>
+
+  <div class="service-box">
+      <img src="./images/spacejoy-PyeXkOVmG1Y-unsplash 1.png" alt="Service 6">
+      <h3>Cybersecurity</h3>
+      <p>Protect your business with our security solutions.</p>
+  </div>
+</div>
+
+<h1 class="header">What we do</h1>
+
+<!-- section-01 -->
+<div class="box-content">
+  <section class="rightside-section">  
+ <img src="./images/roberto-nickson-tleCJiDOri0-unsplash 1.png" alt="work img 1">
+</section> 
+ <section class="content-section">
+   <h2>BUILDING BEYOND EXPECTATIONS</h2>
+   <p>At Davila Builder, we believe in the value of high standards and aspire to be leaders in the commercial construction industry. We aim to set the industry bar for both quality and service, and then to exceed those expectations throughout the entire process. Through regular assessment of industry standards, we are constantly looking for ways to improve upon the norm and to provide our clients with the most up-to-date information and resources needed to accomplish all commercial construction projects successfully and on time.
+   We want to be your first and only choice for all your commercial construction needs. Reach out to schedule a consultation today.</p>
+     <p>Furthermore, we believe in the power of data-driven insights. By harnessing the vast amounts of data available, we help businesses uncover valuable information, make informed decisions, and gain a competitive edge. Our data analytics solutions enable organizations to extract meaningful patterns, identify trends, and derive actionable intelligence to drive growth and innovation.</p>
+ </section> <!-- end of section 01-->
+
+</div> <!-- end of box-content -->
+
+ <!-- section-02 -->
+ <div class="box-content">    
+
+   <section class="rightside-section">
+     <img id="middle-img" src="./images/spacejoy-PyeXkOVmG1Y-unsplash 1.png" alt="work img 2">
+   </section> 
+
+   <section class="content-section">
+   <h2>EQUIPPING YOU TO MAKE DECISIONS THAT LEAD TO BETTER RESULTS</h2>
+   
+     <p>Our goal is to educate and equip our clients to make decisions that will lead to optimal project results and complete satisfaction throughout the entire process. We believe in the value of education and know that our clients make better decisions when there is a clear and holistic understanding of the project. Our team can provide information on tools and materials used in the build, as well as alternative materials and resources available to a project that may provide the same aesthetic and quality but are more cost-efficient for your bottom line. We also understand the standards and regulations required for commercial construction, both in general and for specific industries, and can inform you of any adjustments needed to comply accordingly.
+         Our team strives for transparency at every level of the process. If you have felt left in the dark by previous construction companies, give us a call.</p>
+
+
+   </section> <!-- end of section 02-->
+
+ </div><!-- end of box-content 02-->
+
+ <h1 class="header">Contact Us</h1>
+
+ <div class="contact-form">
+     <h2>Send a Message</h2>
+     <form action="#" method="POST">
+         <label for="name">Full Name:</label>
+         <input type="text" id="name" name="name" required>
+ 
+         <label for="phone">Phone Number:</label>
+         <input type="tel" id="phone" name="phone" required pattern="[0-9]{10}" placeholder="Enter 10-digit phone number">
+ 
+         <label for="message">Your Message:</label>
+         <textarea id="message" name="message" required placeholder="Write your message here..."></textarea>
+ 
+         <button type="submit">Send</button>
+     </form>
+ </div>
+
+
+
+    
+   <!-- footer section -->
+    <footer>
+        <ul>
+          <li><a href="#">Community</a></li>
+          <li><a href="#">Company FAQs</a></li>
+          <li><a href="#">Events</a></li>
+          <li><a href="#">Locations</a></li>
+          <li><a href="#">Support</a></li>
+        </ul>
+        <div class="social-links">
+          
+            
+          
+          <a href="https://www.facebook.com/profile.php?id=61565299492807"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAfZJREFUaEPtmW1uwzAIhtOTrTvZtpOtO9kmJltybD5eDE6VKvkzqWswDy8QSG/bya/byf3fLoBnK5ipwL3AfDRQ9bNH+eyn/P3MAs8AIGfetm2rzqK+ERQBhWAiAHRwG23Uce57X7MgMwAU6e+It8q9bhAvQGbUJQ4XhAfgCOcrFAyBAhzpvAsCAch2vrZUpGuZSlgAGc6Tw+QIXdX5Nv+tpvAu3PdvwwL4DXYbM4LFvnWO6KcGEI0+6jwxWACiLQ3AMmqJY6nb3o+cxdqTDjky+ogCtX6oHnaXBEBPWqRLSCpohUd2aQTx2qcGAAMgkmoptErZITDcQdH00bpburJHA0SVHdKIA4hGSVPgAugLmVMgGqWVCgy2owBsa7OecN3/vU1j53O0Bi6Asp6iD7X0LpShgKfmhqGOSyFrPm9T+CUA6rLSg3G13KdKnYvQuh8CvmqYk+x60oWDggG8rQ2dciMA7FKzaqFZoYBroaGIRlTIBphaKdFNCcpVcHmXinlqqSdjnpbaHp6pgPpyAFm8Z1IpC8B8s4EAzNRDBoDpvDb2crnoUSIKADnvBfAoEQGAnZ8BQCFmAdT3oJ52h8wmWkp5AaaHQrSINSAOBAF4+o98PRQ9M+q0Kf3ySG88tFftiPK772Qo4D4084YLIDOaM7ZOr8AffiN4Mc93jwAAAAAASUVORK5CYII=" alt="facebook-logo"/></a>
+          <a href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAm5JREFUaEPtWTlOBDEQrH0DDyEmAmJ+gAh4ABkJEYcIyEh4AxK/ADISvsF+gBxoZEsty+2u9s7MMmJGWmkPH13V5T68K8z8Wc3cfiwAtu3BxQNz9cABAHntJwDyvve5SRNfftaUV+iJSugawFVoh/hgAST7UA8LQBgWwzdhmjJIDaKAMABqrGdXv/a4XRmZCREp1sg59NZnAHwV1FHMROlO40uyhCgBYT4egHJBl5FOw/U08cQzKyUPgGZ/DOZ3AJwCOALwDkD2+EyHWAcLk7gWAM2E68pO5s8APKi59wDO02dNXhcALZ9e9vPBtOL7HYALBeANwF76LDLK8839Wx7oBSDzrKhSGnIM4FEBuARwWwFgKqAFgHKh2jyS5DSQEwC7AD4APAFYpzUpCQ8FIGJ8xuzJsoxGVVuHAGAlOjEwaz/XTmUZ0gIxGYAy0bVyRQ2sReIkAEqDPFmIfNhENSgAi6XeRKdDpBVhJgcQKTMY45gxzaZes1vzALVBI0N7YZpan41C/wLA7CQk6mAOY01FZfTq9jArIYvdnn6BDb2DnoGWPCIdW2mUeGeriUwMqGXXXEboUqJ2KfAnSgkLhNfjeFl7YwnpA8pEmEhF6hlfIyVcjVIdUYVmC4jISa5h2EsrvU5XQ0Mt4OjEaylb0ykCt93UtwBQhSILQDZidOsdXPZ3JtH9ruXdC/UkKtZIaxzbL1AAynJhbE9EOjYaQC17ZiCZxfC9vqK/9T+DK1tPQnmfSIzfVEJ5PpN73DNQGjMFkNA1JuuBGhD5zrqBi3ghy0//1UTP7wVAbzD2wAXA2Ax76y8e8Bga+/fZe+Abntu2MfzR5rcAAAAASUVORK5CYII=" alt="Instagram-logo"/></a>
+          <a href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAcZJREFUaEPtmFtSBCEMRZmVqStTV6auTL2WqcpQkNwAPZ2ugg/9GEhy8iL0rVx83S5uf9kAZ0fwERF4LqV8dEA/SykvM07YAIT3rAjg+JQTpw4TxmOLB4AUQioNrQwAU3WQAQCef//98zYSgiwAwxCZAIYgsgEIBP5TKZURQJcCagMLhd7sVNkBBKbbajcA0fq8i4wQ8TcvpU0h5PmrQ/EQAHhalvYWM41Kx+mBHAIAw6BQGy4dQ4/IDICAC8hTJXcpQM9w7f1RgFYmQV932It2IXjIy9d6OItEgCnouz0RALyq6nRpKUwJwBo/WwOHRIBJG604XQS+CbdIkX3979WD2Kk14HkfhuMisp6EpwJY3mdfUWkB2A52GoCVPqz3URIpASKfQjaA1QWtPLZSKBKBVanY5LAAVoU+JQC8wUTBu0cYGeY96rVCbwayDGCekp5+dwjwBDBG1C0VZ+TNYBkQacVdOR4ADjKzkOupxgZGtyuXEcJEwVVUbVjifchkALDPK8YIwDLjIwCrIJYaHwWYhVhu/AiADGdMl5G0Yt4MkRS828vWQE+B/o4jcPK40V+Whw30Ds4CePIP/30DHO5iR8HlI/ADzT58Mch6XCkAAAAASUVORK5CYII="/></a>
+        </div>
+      </footer>
+</body>
+<script src="home.js"></script>
+</html>
