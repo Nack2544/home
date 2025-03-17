@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 500px;
+    /* font-weight: 500px; */
 }
 
 body{
@@ -63,7 +63,7 @@ body{
   }
   h1{
       font-family: 'Montserrat', sans-serif;
-      font-weight: 300;
+      font-weight: 600;
       transition: all 0.50s ease;
   }
   nav{
@@ -183,6 +183,11 @@ body{
   /* content-section */
   hr{
       margin: 50px
+  }
+
+  
+  .box-content p{
+    font-weight: 500;
   }
   
   
@@ -514,7 +519,7 @@ nav ul li a {
 
 .gallery {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    grid-template-columns: repeat(2, 1fr); /* 3 columns */
     grid-template-rows: repeat(2, auto); /* 2 rows */
     gap: 20px;
     padding: 20px;
